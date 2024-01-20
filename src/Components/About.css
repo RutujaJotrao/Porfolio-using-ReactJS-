@@ -1,0 +1,101 @@
+/*about*/
+.about-me {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  align-items: "justify";
+  font-size: "3vh";
+}
+
+.about-me h2 {
+  color: #3498db;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.info-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.column:hover {
+  transform: scale(1.05);
+}
+
+.column h4 {
+  color: #3498db;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.skills-poll {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-poll div {
+  margin-bottom: 10px;
+}
+
+.skills-poll span {
+  display: inline-block;
+  width: 100px;
+  color: #555;
+  font-weight: bold;
+}
+
+.poll-bar {
+  height: 12px;
+  background-color: #3498db;
+  border-radius: 6px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Adjust the width based on skill levels */
+.skills-poll div:nth-child(1) .poll-bar {
+  width: 80%;
+}
+.skills-poll div:nth-child(2) .poll-bar {
+  width: 70%;
+}
+.skills-poll div:nth-child(3) .poll-bar {
+  width: 90%;
+}
+
+.info-btn {
+  width: 30vh;
+  margin: 4vh;
+  margin-left: 4vh;
+  margin-right: 1vh;
+}

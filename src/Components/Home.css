@@ -1,0 +1,63 @@
+
+/*home*/
+.home-page {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* src/HomePage.css */
+  .home-page {
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  
+  .content {
+    text-align: center;
+    color: #333; /* Text color */
+    max-width: 600px; /* Limit content width */
+    margin: 0 auto; /* Center content */
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content h5 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555; /* Quote color */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #3498db; /* Button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker button color on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+  }
+  
+  

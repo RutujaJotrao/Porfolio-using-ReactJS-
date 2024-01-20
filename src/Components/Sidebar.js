@@ -1,0 +1,59 @@
+import React from "react";
+import "./Sidebar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faInfoCircle,
+  faCog,
+  faBriefcase,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import Data from "../Data.json";
+
+const Sidebar = () => {
+  return (
+    <div className="sidebar">
+      <div className="main">
+        <br />
+        <br />
+        <br />
+        <p className="header">{Data.heading}</p>
+        <div className="nav">
+          {Data.menuItems.map((item, index) => (
+            <React.Fragment key={index}>
+              <p>
+                <FontAwesomeIcon icon={getFontAwesomeIcon(item.icon)} />{" "}
+                {item.text}
+              </p>
+              {item < Data.menuItems.length - 1 }
+            </React.Fragment>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const getFontAwesomeIcon = (icon) => {
+  switch (icon) {
+    case "home":
+      return faHome;
+
+    case "info-circle":
+      return faInfoCircle;
+
+    case "cog":
+      return faCog;
+
+    case "briefcase":
+      return faBriefcase;
+
+    case "envelope":
+      return faEnvelope;
+
+    default:
+      return null;
+  }
+};
+
+export default Sidebar;

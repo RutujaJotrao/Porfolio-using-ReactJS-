@@ -1,0 +1,91 @@
+{
+  "heading": "Rutuja",
+  "menuItems": [
+    {
+      "icon": "home",
+      "text": "Home"
+    },
+    {
+      "icon": "info-circle",
+      "text": "About"
+    },
+    {
+      "icon": "cog",
+      "text": "Services"
+    },
+    {
+      "icon": "briefcase",
+      "text": "Portfolio"
+    },
+    {
+      "icon": "envelope",
+      "text": "Contact"
+    }
+  ],
+  "context": "Hello, my name is ",
+  "fnm": "Rutuja Jotrao",
+  "quote": "I design and develop experiences that make people's lives simple",
+
+  "about_title": "About me",
+  "about_quote": "I'm Rutuja, a passionate Computer Science Engineer with a focus on front-end web development. I find joy in transforming ideas into imaginative solutions and thrive in teamwork environments.",
+
+  "bdate": "8 April 2003",
+  "degree": "CS",
+  "city": "Sangli/Pune",
+
+  "age": "20",
+  "email": "rutuu84@gmail.com",
+  "phone": "+91 9657892745",
+  "freelance": "Available",
+
+  "lang_first": "HTML",
+  "lang_second": "CSS",
+  "lang_third": "JS",
+  "lang_fourth": "JAVA",
+  "lang_fifth": "Android",
+
+  "button1": "Download CV",
+  "button2": "Hire Me",
+
+  "education": [
+    {
+      "year": "Present",
+      "clg": "Vishwakarma Institute of Technology, Pune",
+      "per": "B.Tech Computer Engineering (CGPA - 8.66)"
+    },
+    {
+      "year": "2020-2021",
+      "clg": "Latthe Education Society’s Polytechnic, Sangli",
+      "per": "Computer Engineering Diploma (97.31%)"
+    },
+    {
+      "year": "2018-2019",
+      "clg": "LGR Purohit kanya prashala, Sangli",
+      "per": "SSC (91.20%)"
+    }
+  ],
+
+  "experience":[
+    {
+      "year":"Dec 2023 - Present",
+      "company":"5TechG, Pune |",
+      "Position":"Intern"
+    },
+    {
+      "year":"June 2023 - Aug 2023",
+      "company":"Barclays Global Service Center, Pune |",
+      "Position":"Intern"
+    },
+    {
+      "year":"May 2023 - July 2023",
+      "company":"Systech, Pune |",
+      "Position":"Intern"
+    },
+    {
+      "year":"May 2022 - Jun 2022",
+      "company":"Social Welfare and Development VIT, Pune |",
+      "Position":"Volunteer"
+    }
+  ]
+
+}
