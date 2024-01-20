@@ -16,7 +16,6 @@
   /* src/HomePage.css */
   .home-page {
     font-family: "Times New Roman", Times, serif;
-    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;

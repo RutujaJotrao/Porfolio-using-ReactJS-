@@ -4,7 +4,7 @@ import Data from "../Data.json";
 
 const About = () => {
   return (
-    <div className="about-me">
+    <div className="about-me" id="about">
       <h2>{Data.about_title}</h2>
       <p>{Data.about_quote}</p>
       <br/>

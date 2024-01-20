@@ -25,17 +25,10 @@ const HomePage = () => {
         <p>Web Developer | Designer</p>
         <h5>{Data.quote}</h5>
 
-      {/*  <BrowserRouter>
-          <Routes>
-            <Route path="/Home" element={<About />} />
-          </Routes>
-
-          <Link to="/Home">
-            <button>More About Me</button>
-          </Link>
-  </BrowserRouter> */ }
-
-        <button>More About Me</button>
+        <button onClick={() => {
+          const element=document.getElementById('about');
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }}>About</button>
       </div>
     </animated.div>
   );
