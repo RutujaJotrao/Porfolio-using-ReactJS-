@@ -29,6 +29,8 @@ const HomePage = () => {
           const element=document.getElementById('about');
           element.scrollIntoView({ behavior: 'smooth', block: 'start' })
         }}>About</button>
+
+        <img src={require(`../Assets/${Data?.path}`)} alt="profile" />
       </div>
     </animated.div>
   );
