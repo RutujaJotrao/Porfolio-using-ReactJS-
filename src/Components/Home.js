@@ -1,4 +1,3 @@
-// src/HomePage.js
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
@@ -30,7 +29,7 @@ const HomePage = () => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' })
         }}>About</button>
 
-        <img src={require(`../Assets/${Data?.path}`)} alt="profile" />
+        {/*<img src={require(`../Assets/${Data?.path}`)} alt="profile" />*/}
       </div>
     </animated.div>
   );

@@ -87,6 +87,35 @@
       "company":"Social Welfare and Development VIT, Pune |",
       "Position":"Volunteer"
     }
-  ]
+  ],
 
+  "services_title":"Services",
+  "frontend":"Front End Development",
+  "backend":"Back End Development",
+  "mobile":"Mobile App Development",
+  "other":"Other Technology",
+
+  "frontend_tech": [
+    {
+      "icon": "FaFigma",
+      "name": "Figma"
+    },
+    {
+      "icon": "FaHtml5",
+      "name": "HTML"
+    },
+    {
+      "icon": "FaCss3",
+      "name": "CSS"
+    },
+    {
+      "icon": "FaBootstrap",
+      "name": "Bootstrap"
+    },
+    {
+      "icon": "RiReactjsFill",
+      "name": "React JS"
+    }
+  ]
+  
 }

@@ -3,6 +3,7 @@ import About from "./Components/About";
 import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Services from "./Components/Services";
 
 function App() {
   return (
@@ -14,17 +15,10 @@ function App() {
             <Wrapper>
               <Home/>
               <About/>
+              <Services/>
             </Wrapper>
           }
           />
-
-          <Route path="/about"
-          element={
-            <Wrapper>
-              <About/>
-            </Wrapper>
-          }
-          />       
         </Routes>
       </BrowserRouter>
     </>
