@@ -4,6 +4,7 @@ import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Components/Services";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Home/>
               <About/>
               <Services/>
+              <Contact/>
             </Wrapper>
           }
           />

@@ -93,7 +93,6 @@
   "frontend":"Front End Development",
   "backend":"Back End Development",
   "mobile":"Mobile App Development",
-  "other":"Other Technology",
 
   "frontend_tech": [
     {
@@ -116,6 +115,43 @@
       "icon": "RiReactjsFill",
       "name": "React JS"
     }
-  ]
-  
+  ],
+
+  "backend_tech": [
+    {
+      "icon": "IoLogoJavascript",
+      "name": "JavaScript"
+    },
+    {
+      "icon": "DiMysql",
+      "name": "MySQL"
+    },
+    {
+      "icon": "FaPhp",
+      "name": "PHP"
+    },
+    {
+      "icon": "FaJava",
+      "name": "Java"
+    },
+    {
+      "icon": "IoLogoElectron",
+      "name": "Electron JS"
+    }
+  ],
+
+  "mobile_tech": [
+    {
+      "icon": "FaAndroid",
+      "name": "Android"
+    }
+  ],
+
+
+
+  "contact_title": "Contact Me",
+  "contact": {
+    "phone": "+1234567890",
+    "email": "portfolio@example.com"
+  }
 }
