@@ -1,6 +1,6 @@
 {
   "heading": "Rutuja",
-  "path":"rutuja.png",
+  "path": "rutuja.png",
   "menuItems": [
     {
       "icon": "home",
@@ -26,28 +26,22 @@
   "context": "Hello, my name is ",
   "fnm": "Rutuja Jotrao",
   "quote": "I design and develop experiences that make people's lives simple",
-
   "about_title": "About me",
   "about_quote": "I'm Rutuja, a passionate Computer Science Engineer with a focus on front-end web development. I find joy in transforming ideas into imaginative solutions and thrive in teamwork environments.",
-
   "bdate": "8 April 2003",
   "degree": "CS",
   "city": "Sangli/Pune",
-
   "age": "20",
   "email": "rutuu84@gmail.com",
   "phone": "+91 9657892745",
   "freelance": "Available",
-
   "lang_first": "HTML",
   "lang_second": "CSS",
   "lang_third": "JS",
   "lang_fourth": "JAVA",
   "lang_fifth": "Android",
-
   "button1": "Download CV",
   "button2": "Hire Me",
-
   "education": [
     {
       "year": "Present",
@@ -65,93 +59,98 @@
       "per": "SSC (91.20%)"
     }
   ],
-
-  "experience":[
+  "experience": [
     {
-      "year":"Dec 2023 - Present",
-      "company":"5TechG, Pune |",
-      "Position":"Intern"
+      "year": "Dec 2023 - Present",
+      "company": "5TechG, Pune |",
+      "Position": "Intern"
     },
     {
-      "year":"June 2023 - Aug 2023",
-      "company":"Barclays Global Service Center, Pune |",
-      "Position":"Intern"
+      "year": "June 2023 - Aug 2023",
+      "company": "Barclays Global Service Center, Pune |",
+      "Position": "Intern"
     },
     {
-      "year":"May 2023 - July 2023",
-      "company":"Systech, Pune |",
-      "Position":"Intern"
+      "year": "May 2023 - July 2023",
+      "company": "Systech, Pune |",
+      "Position": "Intern"
     },
     {
-      "year":"May 2022 - Jun 2022",
-      "company":"Social Welfare and Development VIT, Pune |",
-      "Position":"Volunteer"
+      "year": "May 2022 - Jun 2022",
+      "company": "Social Welfare and Development VIT, Pune |",
+      "Position": "Volunteer"
     }
   ],
-
-  "services_title":"Services",
-  "frontend":"Front End Development",
-  "backend":"Back End Development",
-  "mobile":"Mobile App Development",
-
-  "frontend_tech": [
-    {
-      "icon": "FaFigma",
-      "name": "Figma"
-    },
-    {
-      "icon": "FaHtml5",
-      "name": "HTML"
-    },
-    {
-      "icon": "FaCss3",
-      "name": "CSS"
-    },
-    {
-      "icon": "FaBootstrap",
-      "name": "Bootstrap"
-    },
-    {
-      "icon": "RiReactjsFill",
-      "name": "React JS"
-    }
-  ],
-
-  "backend_tech": [
-    {
-      "icon": "IoLogoJavascript",
-      "name": "JavaScript"
-    },
-    {
-      "icon": "DiMysql",
-      "name": "MySQL"
-    },
-    {
-      "icon": "FaPhp",
-      "name": "PHP"
-    },
-    {
-      "icon": "FaJava",
-      "name": "Java"
-    },
-    {
-      "icon": "IoLogoElectron",
-      "name": "Electron JS"
-    }
-  ],
-
-  "mobile_tech": [
-    {
-      "icon": "FaAndroid",
-      "name": "Android"
-    }
-  ],
-
-
-
+  "services": {
+    "title": "Services",
+    "frontend": "Front End Development",
+    "backend": "Back End Development",
+    "mobile": "Mobile App Development",
+    "frontend_tech": [
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "React JS" },
+      { "name": "Android" },    
+      { "name": "Figma" },
+      { "name": "Bootstrap" }
+    ],
+    "backend_tech": [
+      { "name": "Java" },
+      { "name": "JavaScript" },
+      { "name": "MySQL" },
+      { "name": "PHP" },
+      { "name": "Electron JS" }
+    ],
+    "other_tech": [
+      { "name": "Git" }
+    ]
+  },
   "contact_title": "Contact Me",
   "contact": {
     "phone": "+1234567890",
     "email": "portfolio@example.com"
-  }
+  },
+
+  "portfolio_title":"Portfolio",
+  "projects": [
+    {
+      "title": "Online Exam Management System",
+      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "demo_link": "https://your-demo-link.com",
+      "source_code_link": "https://your-source-code-link.com"
+    },
+    {
+      "title": "Online Exam Management System",
+      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "demo_link": "https://your-demo-link.com",
+      "source_code_link": "https://your-source-code-link.com"
+    },
+    {
+      "title": "Online Exam Management System",
+      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "demo_link": "https://your-demo-link.com",
+      "source_code_link": "https://your-source-code-link.com"
+    }
+   ]
 }

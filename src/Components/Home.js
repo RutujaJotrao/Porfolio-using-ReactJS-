@@ -3,7 +3,6 @@ import { useSpring, animated } from "react-spring";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import "./Home.css";
 import Data from "../Data.json";
-import About from "./About";
 
 const HomePage = () => {
   const fadeIn = useSpring({

@@ -5,6 +5,8 @@ import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import Portfolio from "./Components/Portfolio";
+import Data from './Data.json';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
               <Home/>
               <About/>
               <Services/>
+              <Portfolio projects={Data}/>
               <Contact/>
             </Wrapper>
           }
