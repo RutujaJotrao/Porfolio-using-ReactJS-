@@ -16,7 +16,7 @@
   /* src/HomePage.css */
   .home-page {
     font-family: "Times New Roman", Times, serif;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +59,20 @@
     transform: scale(1.05); /* Add a slight scale effect on hover */
   }
   
-  
+.about-link {
+  /* Button styles */
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.about-link:hover {
+  background-color: #2980b9;
+}
+
+/* Any other existing styles */
+

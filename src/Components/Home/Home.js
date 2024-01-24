@@ -1,10 +1,12 @@
+// Import necessary libraries and components
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Home.css";
-import Data from "../Data.json";
+import Data from "../../Data.json";
 
 const HomePage = () => {
+  // Animation for fading in the home page
   const fadeIn = useSpring({
     opacity: 1,
     from: { opacity: 0 },
@@ -23,12 +25,12 @@ const HomePage = () => {
         <p>Web Developer | Designer</p>
         <h5>{Data.quote}</h5>
 
-        <button onClick={() => {
-          const element=document.getElementById('about');
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }}>About</button>
+        {/* Link to navigate to the About page with animation */}
+        <Link to="/about" className="about-link">
+          About
+        </Link>
 
-        {/*<img src={require(`../Assets/${Data?.path}`)} alt="profile" />*/}
+        {/* ... (existing content) */}
       </div>
     </animated.div>
   );

@@ -8,7 +8,7 @@ import {
   faBriefcase,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import Data from "../Data.json";
+import Data from "../../Data.json";
 
 const Sidebar = () => {
   return (

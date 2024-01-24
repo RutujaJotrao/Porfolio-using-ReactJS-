@@ -1,44 +1,20 @@
-import "./App.css";
-import About from "./Components/About";
-import Sidebar from "./Components/Sidebar";
-import Home from "./Components/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Services from "./Components/Services";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
-import Data from './Data.json';
+// Import necessary libraries and components
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./Components/Home/Home";
+import About from "./Components/About/About"
+import Sidebar from "./Components/Sidebar/Sidebar"
 
-function App() {
+const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/"
-          element={
-            <Wrapper>
-              <Home/>
-              <About/>
-              <Services/>
-              <Portfolio projects={Data}/>
-              <Contact/>
-            </Wrapper>
-          }
-          />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Sidebar />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
-
-const Wrapper = ({children}) => {
-  return (
-    <>
-      <Sidebar/>
-      <div style={{marginLeft:'260px', width:'calc(100vw - 260px)'}}>
-        {children}
-      </div>
-    </>
-  )
-}
