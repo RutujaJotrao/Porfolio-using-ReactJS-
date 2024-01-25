@@ -1,5 +1,5 @@
 import React from "react";
-import { useSpring, animated } from "react-spring";
+import {  animated } from "react-spring";
 import "./Home.css";
 import Data from "../../Data.json";
 import Sidebar from "../Sidebar/Sidebar";
