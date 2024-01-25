@@ -5,16 +5,16 @@ import Data from "../../Data.json";
 import Sidebar from "../Sidebar/Sidebar";
 
 const HomePage = () => {
-  const fadeIn = useSpring({
-    opacity: 1,
-    from: { opacity: 0 },
-    config: { duration: 800 },
-  });
+  // const fadeIn = useSpring({
+  //   opacity: 1,
+  //   from: { opacity: 0 },
+  //   config: { duration: 800 },
+  // });
 
   return (
     <>
     <Sidebar/>
-    <animated.div className="home-page"  style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
+    <animated.div className="home-page"  style={{ marginLeft: "260px", width: "calc(100vw - 260px)" }}>
       <div className="content">
         <p>
           <b>{Data.context}</b>
