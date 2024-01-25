@@ -12,12 +12,12 @@ body {
 }
 
 .sidebar {
-  position: fixed; /* Fixed position */
+  position: fixed; 
   top: 0;
   left: 0;
-  height: 100%; /* Full height */
-  width: 260px; /* Sidebar width */
-  background-color: #333; /* Dark background color */
+  height: 100%; 
+  width: 260px; 
+  background-color: #333;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -27,15 +27,15 @@ body {
 
 
 .main {
-  padding: 20px; /* Added padding for better spacing */
-  flex: 1; /* Takes remaining space */
+  padding: 20px; 
+  flex: 1;
 }
 
 .header {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #3498db; /* Header color */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+  color: #3498db; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   letter-spacing: 1px;
   font-family: cursive;
 }
@@ -46,17 +46,17 @@ body {
 
 .nav p {
   padding: 12px;
-  margin: 10px 0; /* Reduced margin for better spacing */
+  margin: 10px 0; 
   cursor: pointer;
   transition: background-color 0.3s;
   font-family: "Courier New", Courier, monospace;
 }
 
 .nav p:hover {
-  background-color: #555; /* Darker background color on hover */
+  background-color: #555; 
 }
 
-/* Optional: Add some animation to the header */
+
 .header:hover {
   transform: scale(1.1);
   transition: transform 0.3s;

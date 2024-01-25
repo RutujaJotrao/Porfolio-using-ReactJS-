@@ -72,7 +72,6 @@ const About = () => {
         <button className="info-btn">{Data.button1}</button>
         <button className="info-btn">{Data.button2}</button>
       </div>
-      {/* Education Pathway */}
       <div className="column">
         <h4>Education</h4>
         <ul>
@@ -85,7 +84,6 @@ const About = () => {
       </div>
       
       <br/><br/>
-      {/* Education Pathway */}
       <div className="column">
         <h4>Experience</h4>
         <ul>

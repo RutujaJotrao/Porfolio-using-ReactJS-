@@ -17,7 +17,6 @@ const ContactMe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate the form fields here
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
       alert('All fields are required');
       return;

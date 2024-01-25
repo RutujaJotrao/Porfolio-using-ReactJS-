@@ -1,4 +1,3 @@
-// Services.jsx
 import React from 'react';
 import Data from "../../Data.json";
 import './Services.css';
