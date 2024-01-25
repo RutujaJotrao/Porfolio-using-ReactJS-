@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
     <Sidebar/>
-    <div className="about-me" id="about" style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
+    <div className="about-me" id="about" style={{  marginLeft: "260px", width: "calc(100vw - 275px)" }}>
       <h2>{Data.about_title}</h2>
       <p>{Data.about_quote}</p>
       <br/>

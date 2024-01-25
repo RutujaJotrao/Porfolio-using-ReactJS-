@@ -38,7 +38,7 @@ const Wrapper = ({ children }) => {
   return (
     <>
       <Sidebar />
-      <div style={{ marginLeft: "260px", width: "calc(100vw - 260px)" }}>
+      <div>
         {children}
       </div>
     </>
