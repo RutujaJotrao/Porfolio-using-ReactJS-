@@ -1,19 +1,91 @@
-// Import necessary libraries and components
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./Components/Home/Home";
-import About from "./Components/About/About"
-import Sidebar from "./Components/Sidebar/Sidebar"
+// import "./App.css";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "./Components/Home/Home"
+// import Sidebar from "./Components/Sidebar/Sidebar"
+// import Services from "./Components/Services/Services"
+// import Portfolio from "./Components/Portfolio/Portfolio"
+// import Contact from "./Components/Contact/Contact"
+// import About from "./Components/About/About"
+// import Data from "./Data.json"; 
 
-const App = () => {
+// function App() {
+//   return (
+//     <>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path="/"
+//           element={
+//             <Wrapper>
+//               <Home/>
+//             </Wrapper>
+//           }
+//           />
+//         </Routes>
+//       </BrowserRouter>
+//     </>
+//   );
+// }
+
+// export default App;
+
+// const Wrapper = ({children}) => {
+//   return (
+//     <>
+//       <Sidebar/>
+//       <div style={{marginLeft:'260px', width:'calc(100vw - 260px)'}}>
+//         {children}
+//       </div>
+//     </>
+//   )
+// }
+
+
+// App.js
+// App.js
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import Services from "./Components/Services/Services";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Contact from "./Components/Contact/Contact";
+import About from "./Components/About/About";
+import Data from "./Data.json";
+
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Sidebar />} />
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Wrapper>
+                <Home />
+              </Wrapper>
+            }
+          />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/portfolio" element={<Portfolio projects={Data} />} />
+          <Route path="/contact" element={<Contact />} />
+
+          </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+
+const Wrapper = ({ children }) => {
+  return (
+    <>
+      <Sidebar />
+      <div style={{ marginLeft: "260px", width: "calc(100vw - 260px)" }}>
+        {children}
+      </div>
+    </>
   );
 };
 

@@ -1,84 +1,83 @@
 {
-  "heading": "Rutuja",
-  "path": "rutuja.png",
+  "heading": "John Doe",
   "menuItems": [
     {
       "icon": "home",
-      "text": "Home"
+      "text": "Home",
+      "link": "Home"
     },
     {
       "icon": "info-circle",
-      "text": "About"
+      "text": "About",
+      "link": "About"
     },
     {
       "icon": "cog",
-      "text": "Services"
+      "text": "Services",
+      "link": "Services"
     },
     {
       "icon": "briefcase",
-      "text": "Portfolio"
+      "text": "Portfolio",
+      "link": "Portfolio"
     },
     {
       "icon": "envelope",
-      "text": "Contact"
+      "text": "Contact",
+      "link": "Contact"
     }
   ],
   "context": "Hello, my name is ",
-  "fnm": "Rutuja Jotrao",
+  "fnm": "John Doe",
   "quote": "I design and develop experiences that make people's lives simple",
   "about_title": "About me",
-  "about_quote": "I'm Rutuja, a passionate Computer Science Engineer with a focus on front-end web development. I find joy in transforming ideas into imaginative solutions and thrive in teamwork environments.",
-  "bdate": "8 April 2003",
-  "degree": "CS",
-  "city": "Sangli/Pune",
-  "age": "20",
-  "email": "rutuu84@gmail.com",
-  "phone": "+91 9657892745",
+  "about_quote": "I'm John, a passionate Software Engineer with a focus on web development. I enjoy creating innovative solutions and working in collaborative environments.",
+  "bdate": "January 1, 1990",
+  "degree": "Computer Science",
+  "city": "Anytown",
+  "age": "30",
+  "email": "john.doe@example.com",
+  "phone": "+1 234 567 890",
   "freelance": "Available",
   "lang_first": "HTML",
   "lang_second": "CSS",
-  "lang_third": "JS",
-  "lang_fourth": "JAVA",
-  "lang_fifth": "Android",
-  "button1": "Download CV",
+  "lang_third": "JavaScript",
+  "lang_fourth": "Python",
+  "lang_fifth": "React",
+  "button1": "Download Resume",
   "button2": "Hire Me",
   "education": [
     {
       "year": "Present",
-      "clg": "Vishwakarma Institute of Technology, Pune",
-      "per": "B.Tech Computer Engineering (CGPA - 8.66)"
+      "clg": "Generic University",
+      "per": "B.Sc Computer Science (GPA - 3.8)"
     },
     {
-      "year": "2020-2021",
-      "clg": "Latthe Education Society’s Polytechnic, Sangli",
-      "per": "Computer Engineering Diploma (97.31%)"
+      "year": "2010-2013",
+      "clg": "Community College",
+      "per": "Computer Science Diploma (3.9)"
     },
     {
-      "year": "2018-2019",
-      "clg": "LGR Purohit kanya prashala, Sangli",
-      "per": "SSC (91.20%)"
+      "year": "2006-2010",
+      "clg": "High School",
+      "per": "High School Diploma (3.7)"
     }
   ],
   "experience": [
     {
-      "year": "Dec 2023 - Present",
-      "company": "5TechG, Pune |",
-      "Position": "Intern"
+      "year": "Dec 2022 - Present",
+      "company": "Tech Innovators Ltd.",
+      "Position": "Software Developer"
     },
     {
-      "year": "June 2023 - Aug 2023",
-      "company": "Barclays Global Service Center, Pune |",
-      "Position": "Intern"
+      "year": "Jan 2020 - Nov 2022",
+      "company": "Digital Solutions Inc.",
+      "Position": "Web Developer"
     },
     {
-      "year": "May 2023 - July 2023",
-      "company": "Systech, Pune |",
-      "Position": "Intern"
-    },
-    {
-      "year": "May 2022 - Jun 2022",
-      "company": "Social Welfare and Development VIT, Pune |",
-      "Position": "Volunteer"
+      "year": "Jun 2018 - Dec 2019",
+      "company": "Innovative Tech Hub",
+      "Position": "Junior Developer"
     }
   ],
   "services": {
@@ -89,68 +88,72 @@
     "frontend_tech": [
       { "name": "HTML" },
       { "name": "CSS" },
-      { "name": "React JS" },
-      { "name": "Android" },    
-      { "name": "Figma" },
-      { "name": "Bootstrap" }
+      { "name": "JavaScript" },
+      { "name": "React" },
+      { "name": "Vue.js" },
+      { "name": "Sass" }
     ],
     "backend_tech": [
-      { "name": "Java" },
-      { "name": "JavaScript" },
-      { "name": "MySQL" },
-      { "name": "PHP" },
-      { "name": "Electron JS" }
+      { "name": "Node.js" },
+      { "name": "Python" },
+      { "name": "Django" },
+      { "name": "Express" },
+      { "name": "MongoDB" }
     ],
     "other_tech": [
-      { "name": "Git" }
+      { "name": "Git" },
+      { "name": "REST APIs" },
+      { "name": "Agile Methodology" }
     ]
   },
   "contact_title": "Contact Me",
   "contact": {
-    "phone": "+1234567890",
-    "email": "portfolio@example.com"
+    "phone": "+1 234 567 890",
+    "email": "john.doe@example.com"
   },
-
-  "portfolio_title":"Portfolio",
+  "portfolio_title": "My Portfolio",
   "projects": [
     {
-      "title": "Online Exam Management System",
-      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
-      "tech_used": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL"
-      ],
-      "demo_link": "https://your-demo-link.com",
-      "source_code_link": "https://your-source-code-link.com"
+      "title": "Project One",
+      "description": "A description of the first project.",
+      "tech_used": ["HTML", "CSS", "JavaScript"],
+      "demo_link": "https://project-one-demo.com",
+      "source_code_link": "https://github.com/project-one"
     },
     {
-      "title": "Online Exam Management System",
-      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
-      "tech_used": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL"
-      ],
-      "demo_link": "https://your-demo-link.com",
-      "source_code_link": "https://your-source-code-link.com"
+      "title": "Project Two",
+      "description": "A description of the second project.",
+      "tech_used": ["React", "Node.js", "MongoDB"],
+      "demo_link": "https://project-two-demo.com",
+      "source_code_link": "https://github.com/project-two"
     },
     {
-      "title": "Online Exam Management System",
-      "description": "A web application for managing online exams. Users can take exams, view results, and administrators can manage questions, users, and generate reports.",
-      "tech_used": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL"
-      ],
-      "demo_link": "https://your-demo-link.com",
-      "source_code_link": "https://your-source-code-link.com"
+      "title": "Project Three",
+      "description": "A description of the third project.",
+      "tech_used": ["Vue.js", "Express", "MySQL"],
+      "demo_link": "https://project-three-demo.com",
+      "source_code_link": "https://github.com/project-three"
+    },
+    {
+      "title": "Project Four",
+      "description": "A description of the fourth project.",
+      "tech_used": ["Vue.js", "Express", "MySQL"],
+      "demo_link": "https://project-three-demo.com",
+      "source_code_link": "https://github.com/project-three"
+    },
+    {
+      "title": "Project Fifth",
+      "description": "A description of the fifth project.",
+      "tech_used": ["Vue.js", "Express", "MySQL"],
+      "demo_link": "https://project-three-demo.com",
+      "source_code_link": "https://github.com/project-three"
+    },
+    {
+      "title": "Project Six",
+      "description": "A description of the sixth project.",
+      "tech_used": ["Vue.js", "Express", "MySQL"],
+      "demo_link": "https://project-three-demo.com",
+      "source_code_link": "https://github.com/project-three"
     }
-   ]
+  ]
 }

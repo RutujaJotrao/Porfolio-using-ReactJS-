@@ -1,7 +1,8 @@
 // Services.jsx
 import React from 'react';
-import Data from '../../Data.json';
+import Data from "../../Data.json";
 import './Services.css';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Services = () => {
   const renderSkills = (techArray, heading) => {
@@ -20,7 +21,9 @@ const Services = () => {
   };
 
   return (
-    <div className="service">
+    <>
+    <Sidebar/>
+    <div className="service" style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
       <h2>{Data.services.title}</h2>
       <div className="skill-container">
         {renderSkills(Data.services.frontend_tech, 'Frontend Technologies')}
@@ -28,6 +31,7 @@ const Services = () => {
         {renderSkills(Data.services.other_tech, 'Other Technologies')}
       </div>
     </div>
+  </>
   );
 };
 

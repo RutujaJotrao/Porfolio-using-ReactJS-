@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import Data from '../../Data.json';
+import Data from "../../Data.json";
+import Sidebar from "../Sidebar/Sidebar"
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({
@@ -22,14 +23,13 @@ const ContactMe = () => {
       return;
     }
 
-    // Additional validation logic can be added here
-
-    // Submit the form or perform other actions
     console.log('Form submitted:', formData);
   };
 
   return (
-    <div className='contact-me' id='contact'>
+    <>
+    <Sidebar/>
+    <div className='contact-me' id='contact' style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
       <h2>{Data.contact_title}</h2>
 
       <div className='contact-info'>
@@ -86,6 +86,7 @@ const ContactMe = () => {
         </form>
       </div>
     </div>
+  </>
   );
 };
 

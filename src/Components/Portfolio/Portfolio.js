@@ -1,9 +1,12 @@
 import React from 'react';
 import './Portfolio.css'; 
+import Sidebar from "../Sidebar/Sidebar"
 
 const Projects = ({ projects }) => {
   return (
-    <div className="projects-container">
+    <>    
+    <Sidebar/>
+    <div className="projects-container" style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
       <h2>{projects.portfolio_title}</h2>
       
       <div className="projects-list">
@@ -22,6 +25,7 @@ const Projects = ({ projects }) => {
         ))}
       </div>
     </div>
+  </>
   );
 };
 

@@ -1,20 +1,13 @@
-// Import necessary libraries and components
 import React from "react";
-import { useSpring, animated } from "react-spring";
 import "./About.css";
 import Data from "../../Data.json";
+import Sidebar from "../Sidebar/Sidebar";
 
 const About = () => {
-// Animation for sliding in the About page from right to left
-const slideIn = useSpring({
-  transform: "translateX(0%)", // start from 0% (initial position)
-  from: { transform: "translateX(100%)" }, // slide in from right (100%)
-  config: { duration: 800 },
-});
-
-
   return (
-    <animated.div className="about-me" style={slideIn}>
+    <>
+    <Sidebar/>
+    <div className="about-me" id="about" style={{  marginLeft: "260px", width: "calc(100vw - 260px)" }}>
       <h2>{Data.about_title}</h2>
       <p>{Data.about_quote}</p>
       <br/>
@@ -103,7 +96,8 @@ const slideIn = useSpring({
           ))}
         </ul>
       </div>
-      </animated.div>
+    </div>
+  </>
   );
 };
 

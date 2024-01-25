@@ -1,4 +1,6 @@
+// Sidebar.js
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,13 +22,12 @@ const Sidebar = () => {
         <p className="header">{Data.heading}</p>
         <div className="nav">
           {Data.menuItems.map((item, index) => (
-            <React.Fragment key={index}>
+            <Link to={`/${item.link}`} key={index} style={{textDecoration:'none', color:'white'}}>
               <p>
                 <FontAwesomeIcon icon={getFontAwesomeIcon(item.icon)} />{" "}
                 {item.text}
               </p>
-              {item < Data.menuItems.length - 1 }
-            </React.Fragment>
+            </Link>
           ))}
         </div>
       </div>

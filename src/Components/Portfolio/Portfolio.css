@@ -1,11 +1,12 @@
 .projects-container {
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 35px;
   background-color: #f8f8f8;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   align-items: "justify";
   font-size: "3vh";
+  height: 94.6vh;
 }
 
 .projects-container h2 {
